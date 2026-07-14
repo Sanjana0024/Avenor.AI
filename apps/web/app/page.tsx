@@ -1,11 +1,11 @@
-import { Button } from "@/components/ui/button";
+import Navbar from "@/components/landing/Navbar";
+import Hero from "@/components/landing/Hero";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen items-center justify-center">
-      <Button>
-        Build Avenor 🚀
-      </Button>
+    <main className="min-h-screen bg-background">
+      <Navbar />
+      <Hero />
     </main>
   );
 }
